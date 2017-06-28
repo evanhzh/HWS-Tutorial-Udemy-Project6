@@ -14,26 +14,28 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let label1 = UILabel()
-        label1.text = "Box 1"
         label1.translatesAutoresizingMaskIntoConstraints = false
         label1.backgroundColor = UIColor.green
+        label1.text = "Box 1"
         
         
         let label2 = UILabel()
-        label2.text = "Box 2"
+        
         label2.translatesAutoresizingMaskIntoConstraints = false
         label2.backgroundColor = UIColor.orange
+        label2.text = "Box 2"
         
         let label3 = UILabel()
-        label3.text = "Box 3"
+        
         label3.translatesAutoresizingMaskIntoConstraints = false
         label3.backgroundColor = UIColor.yellow
+        label3.text = "Box 3"
         
         let label4 = UILabel()
-        label3.text = "Box 4"
-        label3.translatesAutoresizingMaskIntoConstraints = false
-        label3.backgroundColor = UIColor.blue
         
+        label4.translatesAutoresizingMaskIntoConstraints = false
+        label4.backgroundColor = UIColor.blue
+        label4.text = "Box 4"
         
         view.addSubview(label1)
         view.addSubview(label2)
